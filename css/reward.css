@@ -1,0 +1,141 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.list-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 44px;
+  font-size: 20px;
+  background: #af0b0a;
+}
+
+.list-top .shop {
+  color: #fff;
+  padding-left: 24px;
+}
+
+.list-top .gwc {
+  width: 77px;
+  height: 27px;
+  border: 2px solid #a02c2c;
+  border-radius: 8px;
+  background: #ab0c08;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  line-height: 27px;
+  margin-right: 12px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #d45252;
+}
+
+.list-top .gwc a {
+  color: #fff;
+}
+
+.list-item {
+  margin-left: 12px;
+}
+
+.list-item img {
+  width: 24px;
+  height: 20px;
+}
+
+.list-shop {
+  flex: 1;
+  background: #f3eff0;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.list-shop::-webkit-scrollbar {
+  display: none;
+}
+
+.list-reward {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96%;
+  height: 68%;
+  background: #a90506;
+  margin: 2%;
+}
+
+.list-reward ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 96%;
+  height: 68%;
+  margin: 2%;
+}
+
+.list-reward ul li {
+  width: 33%;
+  height: 33%;
+}
+
+.list-reward ul li img {
+  width: 100%;
+  height: 100%;
+}
+
+.list-reward ul .dial {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  height: 33%;
+  background: #640000;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  padding-left: 2%;
+  line-height: 47px;
+}
+
+.list-reward ul .word-reward.active {
+  border-image: url(../img/border.png) 9 16 21 13 stretch;
+}
+
+.reward-user {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #a80506;
+  border-bottom: none;
+  width: 96%;
+  height: 22%;
+  background: #ff4948;
+  margin: 2% 0 0 2%;
+  overflow: hidden;
+}
+
+.reward-user ul {
+  width: 100%;
+}
+
+.reward-user ul li {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  line-height: 30px;
+  font-size: 18px;
+  color: #630100;
+}
+
+.reward-user ul li span:nth-of-type(1) {
+  width: 80px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  height: 44px;
+  color: #fff;
+  display: flex;
+  line-height: 44px;
+  background: #a81817;
+}
+
+.header a {
+  width: 52px;
+  height: 26px;
+  text-align: center;
+  display: inline-block;
+  font-size: 28px;
+}
+
+.header .title {
+  font-size: 18px;
+  flex: 1;
+  text-align: center;
+}
+
+.header .shopcat {
+  margin: 9px 10px;
+  border: 1px solid #901412;
+  border-radius: 5px;
+}
+
+.header .shopcat img {
+  width: 22px;
+  height: 19px;
+  margin: 4px 15px;
+}
+
+#banner {
+  height: 56vw;
+  width: 100%;
+  overflow: hidden;
+}
+
+#banner .Imglist {
+  width: 168vw;
+  height: 56vw;
+  margin-left: 87px;
+}
+
+#banner .Imglist li {
+  width: 45vw;
+  height: 40vh;
+  float: left;
+}
+
+#banner .Imglist li img {
+  width: 100%;
+  height: 100%;
+}
+
+.gooddata {
+  width: 100%;
+  height: 28vh;
+  background: #f3eff0;
+  overflow: hidden;
+}
+
+.gooddata .point {
+  height: 21px;
+  width: 50px;
+  background: #bcbcbc;
+  border-radius: 10px;
+  margin: 7px auto;
+  text-align: center;
+  line-height: 15px;
+}
+
+.gooddata .point span {
+  width: 6px;
+  height: 6px;
+  display: inline-block;
+  background: #969696;
+  border-radius: 50%;
+}
+
+.gooddata .point span.active {
+  background: #e9e9e9;
+}
+
+.gooddata p {
+  line-height: 26px;
+  padding-left: 13px;
+}
+
+.gooddata p:nth-of-type(1) {
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.gooddata .price span {
+  color: #bb0953;
+  margin-right: 14px;
+}
+
+#totetail {
+  width: 100%;
+  height: 49px;
+  line-height: 49px;
+}
+
+#totetail span:nth-of-type(1) {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  background: #b52121;
+  border-radius: 50%;
+  background-image: url(../img/bg_11.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 13px;
+}
+
+#totetail span:nth-of-type(2) {
+  margin-left: 50vw;
+  font-size: 20px;
+}
+
+#totetail p {
+  line-height: 49px;
+}
+
+#addtocat {
+  width: 100%;
+  height: 12vh;
+  background: #a3a3a3;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+
+#addtocat a {
+  height: 41px;
+  width: 218px;
+  display: inline-block;
+  background: #bc2423;
+  margin-top: 10px;
+  line-height: 41px;
+  color: #fff;
+  border-radius: 10px;
+}

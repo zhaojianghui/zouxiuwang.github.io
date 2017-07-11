@@ -1,0 +1,66 @@
+html{
+    width:100%;
+}
+input{
+    outline: none;
+}
+/*注册*/
+
+.header{height:44px;line-height:44px;text-align: center; border-bottom: 1px solid #ccc;width:100%;
+ul{height:44px;display:flex;width:100%;background:#a90506;justify-content: space-between;
+    .last{line-height:44px;width:60px;height:44px;
+        img{width: 23px;height: 22px;display:inline-block;margin-top:12px;}}
+    .reg{font-size:16px;color:white;height:44px;}
+    
+}
+}
+
+
+.content{background:#f3eff0;height:623px;overflow: hidden;
+     .name{width:300px;height:43px;font-size:13px;margin:32px auto;background:white;padding-left:10px;
+           input{width:200px;height:43px; border:none;}
+     }
+     .pass{width:300px;height:43px;font-size:13px;margin:32px auto;background:white;padding-left:10px;
+           input{width:200px;height:43px; border:none;}
+     }
+     .passTo{width:300px;height:43px;font-size:13px;margin:32px auto;background:white;padding-left:10px;
+           input{width:200px;height:43px;border:none;}
+     }
+      #btn{width:290px;height:54px;background:#c60808;margin:0 auto;display:block;border:none;
+          color:white;font-size:18px;margin-top:50px;border-radius: 5px;border:solid 1px #444;}
+
+       .node{width:300px;height:43px;font-size:14px;margin:0 auto;line-height:43px;
+             text-align: center;color: red;}
+     }
+
+
+
+
+     /*登陆*/
+     .header1{height:44px;line-height:44px;text-align: center; border-bottom: 1px solid #ccc;width:100%;
+              background:#a90506;color:white;
+              }
+     .content1{background:#f3eff0;height:623px;overflow: hidden;
+            .name1{width:300px;height:43px;font-size:13px;margin:0 auto;margin-top:32px;
+                  input{width:300px;height:43px;padding-left:10px;border:none;}
+                   }
+            .password{width:300px;height:43px;font-size:13px;margin:5px auto;
+                  input{width:300px;height:43px;padding-left:10px;border:none;}
+                   }
+            .outpassword{width:300px;height:43px;font-size:14px;margin:0 auto;margin-top:32px;vertical-align: middle;
+                        input{width:17px;height:17px;vertical-align: middle;}
+                        a{color:#ff0e52;}
+                        }
+            .rememberpassword{width:300px;height:43px;font-size:14px;margin:0 auto;vertical-align: middle;
+                         input{width:17px;height:17px;vertical-align: middle;}
+                        }
+             #btn1{width:290px;height:54px;background:#c60808;margin:0 auto;display:block;border:none;
+                  color:white;font-size:18px;margin-top:32px;border-radius: 5px;border:solid 1px #444;}
+             #btn2{width:290px;height:54px;background:#4c4c4c;margin:0 auto;display:block;border:none;
+                   color:white;font-size:18px;margin-top:10px;border-radius: 5px;border:solid 1px #444;}
+
+            
+            .node{width:300px;height:43px;font-size:14px;margin:0 auto;line-height:43px;
+                  text-align: center;color: red;}
+             
+             }

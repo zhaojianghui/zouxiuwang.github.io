@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  outline: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  height: 44px;
+  color: #fff;
+  display: flex;
+  line-height: 44px;
+  background: #a81817;
+}
+
+.header a {
+  width: 52px;
+  height: 26px;
+  text-align: center;
+  margin: 9px 10px;
+  line-height: 26px;
+  color: #fff;
+  display: inline-block;
+  font-size: 11px;
+}
+
+.header .title {
+  font-size: 18px;
+  width: 390px;
+  text-align: center;
+}
+
+.header .settlement {
+  border: 1px solid #901412;
+  border-radius: 5px;
+}
+
+.nav p {
+  display: flex;
+  height: 45px;
+  line-height: 45px;
+  font-size: 16px;
+  color: #fff;
+  background: #747474;
+  font-size: 15px;
+  padding-left: 11px;
+}
+
+.nav p span {
+  color: red;
+}
+
+.nav p span:nth-of-type(1) {
+  margin: 0 10px;
+}
+
+.nav p .priceAll {
+  color: #A81817;
+}
+
+.goodsAll {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.goodsAll::-webkit-scrollbar {
+  display: none;
+}
+
+.goods {
+  width: 100%;
+  border-bottom: 1px solid #cbcbcb;
+  display: flex;
+  padding: 14px 11px;
+}
+
+.goods .left img {
+  width: 27vw;
+  height: 27vw;
+}
+
+.goods .center {
+  width: 54vw;
+  padding-left: 12px;
+  line-height: 22px;
+}
+
+.goods .center p:nth-of-type(1) {
+  overflow: hidden;
+  width: 100%;
+  height: 44px;
+  white-space: wrap;
+  text-overflow: ellipsis;
+}
+
+.goods .center .number span {
+  width: 28px;
+  height: 21px;
+  text-align: center;
+  line-height: 21px;
+  display: inline-block;
+  background: #787878;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.goods .center .number input {
+  width: 38px;
+  height: 21px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.goods .right img {
+  width: 18px;
+  height: 18px;
+  margin-left: 16px;
+}
+
+.list-wrap {
+  width: 100%;
+  height: 48px;
+  background: #484850;
+}
+
+.list-con {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.list-con li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
+  height: 48px;
+}
+
+.list-con .list-item.active {
+  border-top: 2px solid red;
+}
+
+.list-con li img {
+  width: 24px;
+  height: 25px;
+}
+
+.list-con li span {
+  display: block;
+  font-size: 13px;
+  color: #fff;
+}
